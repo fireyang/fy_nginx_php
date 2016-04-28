@@ -1,6 +1,7 @@
 # Pull base image.
 FROM debian:jessie
 
+#change source list to 163.com
 RUN mv /etc/apt/sources.list /etc/apt/sources.list.back
 ADD conf/debian_jessie_source.list /etc/apt/sources.list
 
