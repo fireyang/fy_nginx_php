@@ -15,7 +15,8 @@
 #
 server {
 	listen 80 default_server;
-	listen [::]:80 default_server;
+    # close ssl
+	#listen [::]:80 default_server;
 
 	# SSL configuration
 	#
